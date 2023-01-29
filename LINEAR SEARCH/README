@@ -1,5 +1,24 @@
+LINEAR SEARCH:
+
 ->Linear search is the simplest method for searching.In this the element to be found is searched sequentially in the list.
 ->This method can be performed on a sorted or an unsorted list (usually arrays).
 ->In case of a sorted list searching starts from 0th element and continues until the element is found from the list or the element whose value is greater than (assuming
 the list is sorted in ascending order), the value being searched is reached.
 ->As against this, searching in case of unsorted list also begins from the 0th element and continues until the element or the end of the list is reached.
+
+EXAMPLE:-Let us take a array with elementsa[5]={2,6,1,8,3}
+key=1
+
+STEP-1:-First it starts searching from 0 th index element and that is from a[0]=2
+  (a[0]=2) is not equal to key
+  Now we increase index by 1.
+
+STEP-2:-Compare element of index 1 i.e (a[1]=6) with key
+  It is found that key is not equal to value of index 1(a[1]=6)
+  Now again we increase index by 1.
+
+STEP-3:-Compare element of index 2 i.e(a[2]=1) with key
+  It is found that key=a[2]
+  It returns "Element 1 found at position 3"
+Finally loop terminates after this..!
+
