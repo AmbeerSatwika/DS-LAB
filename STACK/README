@@ -1,1 +1,21 @@
+A stack is a linear data structure in which the elements are added and removed only from one end, which is called the TOP. 
+Hence, a stack is also called a LIFO (Last-In-First-Out) or FILO(First In Last Out) data structure, which means the element that was inserted last is the first 
+one to be taken out and the element that was inserted First is the last one to be taken out.
+The operations in stack are:
+1) Push
+2) Pop
+3) Peek
+1) PUSH:-
+The steps involved in the PUSH operation is given below:
+•	Before inserting an element in a stack, we check whether the stack is full.
+•	If we try to insert the element in a stack, and the stack is full, then the overflow condition occurs.
+•	When we initialize a stack, we set the value of top as -1 to check that the stack is empty.
+•	When the new element is pushed in a stack, first, the value of the top gets incremented, i.e., top=top+1, and the element will be placed at the new position of the top.
+•	The elements will be inserted until we reach the max size of the stack.
+2)POP:-
+The steps involved in the POP operation is given below:
+•	Before deleting the element from the stack, we check whether the stack is empty.
+•	If we try to delete the element from the empty stack, then the underflow condition occurs.
+•	If the stack is not empty, we first access the element which is pointed by the top
+•	Once the pop operation is performed, the top is decremented by 1, i.e., top=top-1.
 
