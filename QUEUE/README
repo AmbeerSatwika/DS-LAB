@@ -1,1 +1,43 @@
+We define a queue to be a list in which all additions to the list are made at one end, and all deletions from the list are made at the other end. The element 
+which is first pushed into the order, the operation is first performed on that.
+
+FIFO Principle of Queue:
+A Queue is like a line waiting to purchase tickets, where the first person in line is the first person served. (i.e. First come first serve).
+Position of the entry in a queue ready to be served, that is, the first entry that will be removed from the queue, is called the front of the queue(sometimes,
+head of the queue), similarly, the position of the last entry in the queue, that is, the one most recently added, is called the rear (or the tail) of the queue.
+
+
+Queue Representation:
+Like stacks, Queues can also be represented in an array: In this representation, the Queue is implemented using the array. Variables used in this case are
+Queue: the name of the array storing queue elements.
+Front: the index where the first element is stored in the array representing the queue.
+Rear: the index where the last element is stored in an array representing the queue.
+
+Algorithm for inserting an element :-
+
+Step 1: IF REAR = MAX - 1
+Write OVERFLOW
+Go to step 
+[END OF IF]
+Step 2: IF FRONT = -1 and REAR = -1
+SET FRONT = REAR = 0 
+ELSE
+SET REAR = REAR + 1 
+[END OF IF]
+Step 3: Set QUEUE[REAR] = NUM
+Step 4: EXIT
+
+Algorithm to delete an element from the queue:-
+
+If, the value of front is -1 or value of front is greater than rear , write an underflow message and exit.
+Otherwise, keep increasing the value of front and return the item stored at the front end of the queue at each time.
+Algorithm
+Step 1: IF FRONT = -1 or FRONT > REAR
+Write UNDERFLOW 
+ELSE 
+SET VAL = QUEUE[FRONT]
+SET FRONT = FRONT + 1 
+[END OF IF]
+Step 2: EXIT
+
 
