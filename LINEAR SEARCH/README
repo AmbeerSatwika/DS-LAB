@@ -6,6 +6,17 @@ LINEAR SEARCH:
 the list is sorted in ascending order), the value being searched is reached.
 ->As against this, searching in case of unsorted list also begins from the 0th element and continues until the element or the end of the list is reached.
 
+Linear Search Algorithm
+Step 1: First, read the search element (Target element) in the array.
+Step 2: In the second step compare the search element with the first element in the array.
+Step 3: If both are matched, display “Target element is found” and terminate the Linear Search 
+function.
+Step 4: If both are not matched, compare the search element with the next element in the array.
+Step 5: In this step, repeat steps 3 and 4 until the search (Target) element is compared with the 
+last element of the array.
+Step 6 – If the last element in the list does not match, the Linear Search Function will be 
+terminated, and the message “Element is not found” will be displayed.
+
 EXAMPLE:-Let us take a array with elementsa[5]={2,6,1,8,3}
 key=1
 
